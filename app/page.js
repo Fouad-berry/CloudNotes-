@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>CloudNotes 📝</h1>
+      <h1>CloudNotes</h1>
       <NoteForm onAdd={handleAdd} />
       <hr />
       <div style={{ marginTop: '2rem' }}>
